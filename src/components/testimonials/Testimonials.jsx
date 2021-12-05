@@ -14,7 +14,7 @@ export default function Testimonials() {
       id: 2,
       name: "Alex Kalinski",
       title: "Co-Founder of DELKA",
-      img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "https://cdn.pixabay.com/photo/2017/11/02/14/27/model-2911332_960_720.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/youtube.png",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       featured: true,
