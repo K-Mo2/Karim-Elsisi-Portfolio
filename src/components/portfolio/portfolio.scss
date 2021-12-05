@@ -6,6 +6,7 @@
   align-items: center;
 
   h1 {
+    margin-top: 3vh;
     font-size: 50px;
     @include mobile {
       font-size: 20px;
