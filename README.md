@@ -1,3 +1,6 @@
+### overview
+This is my portfolio project with React and Sass.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
