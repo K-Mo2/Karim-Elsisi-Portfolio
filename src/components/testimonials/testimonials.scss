@@ -27,6 +27,7 @@
     @include mobile {
       flex-direction: column;
       justify-content: space-between;
+      height: 90%;
     }
     .card {
       width: 250px;

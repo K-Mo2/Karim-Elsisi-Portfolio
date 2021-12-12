@@ -38,7 +38,7 @@ export default function Works() {
       >
         {data.map((d) => {
           return (
-            <div className="container">
+            <div className="container" key={d.id}>
               <div className="item">
                 <div className="left">
                   <div className="leftContainer">
