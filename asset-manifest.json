@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Karim-Elsisi-Portfolio/static/css/main.b6b65e11.chunk.css",
+    "main.js": "/Karim-Elsisi-Portfolio/static/js/main.8178cf0f.chunk.js",
+    "main.js.map": "/Karim-Elsisi-Portfolio/static/js/main.8178cf0f.chunk.js.map",
+    "runtime-main.js": "/Karim-Elsisi-Portfolio/static/js/runtime-main.60967247.js",
+    "runtime-main.js.map": "/Karim-Elsisi-Portfolio/static/js/runtime-main.60967247.js.map",
+    "static/js/2.093ddad8.chunk.js": "/Karim-Elsisi-Portfolio/static/js/2.093ddad8.chunk.js",
+    "static/js/2.093ddad8.chunk.js.map": "/Karim-Elsisi-Portfolio/static/js/2.093ddad8.chunk.js.map",
+    "index.html": "/Karim-Elsisi-Portfolio/index.html",
+    "static/css/main.b6b65e11.chunk.css.map": "/Karim-Elsisi-Portfolio/static/css/main.b6b65e11.chunk.css.map",
+    "static/js/2.093ddad8.chunk.js.LICENSE.txt": "/Karim-Elsisi-Portfolio/static/js/2.093ddad8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60967247.js",
+    "static/js/2.093ddad8.chunk.js",
+    "static/css/main.b6b65e11.chunk.css",
+    "static/js/main.8178cf0f.chunk.js"
+  ]
+}
