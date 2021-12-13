@@ -1,6 +1,6 @@
-import React from "react";
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+import { Call, Mail } from "@material-ui/icons";
+import Toggle from "../toggle/Toggle";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -12,7 +12,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </a>
           <div className="itemContainer">
             {" "}
-            <Person className="icon" />
+            <Call className="icon" />
             <span>+20 1146188602</span>
           </div>
           <div className="itemContainer">
@@ -21,6 +21,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           </div>
         </div>
         <div className="right">
+          <Toggle />
+
           <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>

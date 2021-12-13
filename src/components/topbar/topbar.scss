@@ -46,6 +46,10 @@
     }
 
     .right {
+      width: 10vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       .hamburger {
         width: 32px;
         height: 25px;

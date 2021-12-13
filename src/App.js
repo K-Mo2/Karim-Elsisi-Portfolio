@@ -6,16 +6,25 @@ import Topbar from "./components/topbar/Topbar";
 import Works from "./components/works/Works";
 import Menu from "./components/menu/Menu";
 import "./app.scss";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import ThemeContext from "./context";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const themeCtx = useContext(ThemeContext);
+  const darkMode = themeCtx.state.darkMode;
+  console.log(darkMode);
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <div className="sections">
+      <div
+        className="sections"
+        style={{
+          backgroundColor: darkMode ? "black" : "white",
+          color: darkMode ? "white" : "black",
+        }}
+      >
         <Intro />
         <Portfolio />
         <Works />
