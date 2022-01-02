@@ -1,5 +1,5 @@
 ### overview
-This is my portfolio project with React and Sass.
+This is my portfolio project with React, Sass and Email.js.
 
 # Getting Started with Create React App
 
